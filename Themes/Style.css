@@ -1,0 +1,49 @@
+@charset "utf-8";
+/* ===================================
+Coding : UTF-8 [Time:2014-10-01]
+System : BET.SEM.COM.DE [By Lyke]
+====================================== */
+
+/* Reset */
+body,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,hr,form,blockquote,p{margin:0;padding:0;}h1,h2,h3,h4,h5,h6{font-size:100%;}ul,ol{list-style:none;}table{border-collapse:collapse;}img{border:none;}
+body{background:#ECEBEB url(Img/Body.gif) fixed;font:14px/1.8 Tahoma,Helvetica,Arial,'Microsoft YaHei',sans-serif;color:#444;}a{color:#444;text-decoration:none;}
+
+/* Header */
+#header{width:100%;background:url(Img/Head.gif) repeat-x;top:0;left:0;position:fixed;_top:expression(documentElement.scrollTop);_position:absolute;z-index:999;}.head{width:996px;height:62px;margin:0 auto 12px;overflow:hidden;}
+.head .logo{float:left;width:280px;height:62px;line-height:62px;background:url(Img/Logo.gif) no-repeat;}.head .logo a{width:280px;text-indent:280px;display:block;overflow:hidden;}
+.head .nav{float:right;width:680px;height:40px;line-height:40px;margin:12px auto 10px;overflow:hidden;}.head .nav a.on,.head .nav a:hover{background:Red;color:#FF0;}
+.head .nav a{float:left;width:130px;background:#333;color:#CCC;text-align:center;font-size:18px;font-weight:600;border-radius:5px;margin:0 3px;display:inline-block;overflow:hidden;}
+
+/* Slider */
+#slider{width:100%;box-shadow:0 3px 5px 1px #999;margin:74px auto 10px;position:relative;}.sliders{width:100%;height:400px;margin-top:74px;position:relative;overflow:hidden;}
+.sliders .item{width:100%;height:400px;line-height:400px;text-align:center;top:0;left:0;position:absolute;overflow:hidden;}.sliders .item img{width:auto;height:400px;}
+.bullets{left:85%;bottom:20px;position:absolute;z-index:99;}.bullets a.active{background-position:0 -109px;}
+.bullets a{float:left;width:11px;height:11px;line-height:11px;background:url(Img/Slider.gif) no-repeat 0 -97px;text-indent:11px;margin-left:5px;display:inline-block;overflow:hidden;}
+.arrows a{width:43px;height:43px;line-height:43px;background:url(Img/Slider.gif) no-repeat;_background-color:#333;text-indent:43px;top:45%;*top:50%;position:absolute;display:block;overflow:hidden;z-index:99;}
+.arrows a.prev{left:15px;background-position:0 0;}.arrows a.prev:hover{background-position:0 -44px;}.arrows a.next{right:15px;background-position:-43px 0;}.arrows a.next:hover{background-position:-43px -44px;}
+
+/* Other */
+.id{top:-84px;position:relative;}.box{width:996px;border-radius:5px;box-shadow:0 3px 5px 1px #999;margin:10px auto;overflow:hidden;}.ibox{background:#ECEBEB;border:1px solid #FFF;padding:10px;overflow:hidden;}
+.tab{width:100%;height:50px;line-height:50px;background:#ECEBEB;text-align:center;font-size:26px;border-top:1px solid #FFF;border-bottom:1px solid #FFF;box-shadow:0 3px 5px 1px #999;margin:10px auto;overflow:hidden;}
+var{width:69px;height:49px;background:url(Img/Var.gif) no-repeat;right:0;top:0;position:absolute;display:block;overflow:hidden;}var.v1{background-position:0 0;}var.v2{background-position:0 -50px;}var.v3{background-position:0 -100px;}var.v4{background-position:0 -150px;}
+
+/* Best */
+.best{background:#ECEBEB;border:1px solid #FFF;padding:5px;overflow:hidden;_zoom:1;}.best li img{width:100%;height:100%;}
+.best li{float:left;width:472px;height:250px;background:url(Img/Best.gif) no-repeat;padding:5px;margin:5px;display:inline;position:relative;overflow:hidden;}
+.best .text{width:452px;background:#000;color:#FFF;padding:10px;filter:alpha(opacity=90);opacity:0.9;left:5px;bottom:5px;position:absolute;overflow:hidden;display:none;}
+.best .text h3{height:30px;line-height:24px;font-size:18px;color:#FF0;border-bottom:1px dashed #FFF;}.best .text p{height:24px;line-height:24px;overflow:hidden;}.best .text p.max{height:48px;}
+.best .text a.reg{float:right;width:98px;height:34px;line-height:34px;background:url(Img/Reg.gif) no-repeat 0 -35px;text-indent:98px;display:block;overflow:hidden;}.best .text a.reg:hover{background-position:0 0;}
+
+/* Good */
+.good{background:#ECEBEB;border:1px solid #FFF;padding:5px;overflow:hidden;_zoom:1;}.good li img{width:100%;height:100%;}
+.good li{float:left;width:308px;height:190px;background:url(Img/Good.gif) no-repeat;padding:5px;margin:5px;display:inline;position:relative;overflow:hidden;}.good .text h3{font-size:18px;color:#FF0;}
+.good .text{width:288px;height:50px;line-height:25px;background:#000;color:#FFF;padding:5px 10px;filter:alpha(opacity=90);opacity:0.9;left:5px;bottom:5px;position:absolute;overflow:hidden;display:none;}
+
+/* Footer */
+#footer{width:100%;height:160px;background:#222;overflow:hidden;}.foot{width:996px;color:#666;margin:15px auto;overflow:hidden;}.foot a{color:#666;}
+.foot .logo{float:left;width:150px;height:130px;line-height:130px;background:url(Img/FLogo.gif) no-repeat;border-right:1px solid #303030;}.foot .logo a{width:150px;height:130px;text-indent:150px;display:block;overflow:hidden;}
+.foot .title{height:32px;line-height:32px;text-align:center;font-size:16px;border-top:1px solid #303030;border-bottom:1px solid #303030;margin:10px auto;overflow:hidden;}
+.foot .link{float:left;width:318px;height:130px;border-left:1px solid #171717;border-right:1px solid #303030;padding:0 10px;}.foot .link a:hover{background:Red;color:#FFF;}
+.foot .link a{float:left;width:100px;height:32px;line-height:32px;background:#303030;text-align:center;border-radius:5px;margin:2px 3px;display:inline-block;overflow:hidden;}
+.foot .tips{float:left;width:484px;height:130px;border-left:1px solid #171717;padding:0 10px;}.foot .tips p{height:32px;line-height:32px;background:#303030;text-indent:10px;border-radius:5px;margin:4px auto;overflow:hidden;}
+#copyright{width:100%;height:32px;line-height:32px;background:#000;text-align:center;font-size:14px;overflow:hidden;}#gotop{width:68px;height:78px;background:url(Img/GTop.gif) no-repeat;cursor:pointer;right:10px;bottom:50px;position:fixed;_top:expression(documentElement.scrollTop + documentElement.clientHeight - this.offsetHeight - 50);_position:absolute;display:none;}#down{width:156px;height:138px;background:url(Img/Down.gif) no-repeat;cursor:pointer;left:10px;bottom:50px;position:fixed;_top:expression(documentElement.scrollTop + documentElement.clientHeight - this.offsetHeight - 50);_position:absolute;}
