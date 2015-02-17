@@ -1,0 +1,6 @@
+document.writeln("<div style=\'margin: 10px\'><a href=\'http://yl6601.com/?Intr=240478\' target=\'_blank\'><img width=\'960px\' height=\'60px\' src=\'http://clshequ.com/template/yl960x70.gif\'/></a></div>");
+document.writeln("<div style=\'margin: 0px\'><a href=\'http://www.7111x.com/?intr=2238566\' target=\'_blank\'><img width=\'960px\' height=\'60px\' src=\'http://avtiantang.cn/c/sun960x120.gif\'/></a></div>");
+document.writeln("<div style=\'margin: 10px\'><a href=\'http://yl6601.com/?Intr=240478\' target=\'_blank\'><img width=\'960px\' height=\'60px\' src=\'http://clshequ.com/template/yl960x70.gif\'/></a></div>");
+document.writeln("<div style=\'margin: 0px\'><a href=\'http://www.5lswjs.com/?aff=242654\' target=\'_blank\'><img width=\'960px\' height=\'60px\' src=\'http://clshequ.com/template/vgs960x70.gif\'/></a></div>");
+document.writeln("<div style=\'margin: 0px\'><a href=\'http://www.dfh5.com/?aff=242655\' target=\'_blank\'><img width=\'960px\' height=\'60px\' src=\'http://clshequ.com/template/dfh961x50.gif\'/></a></div>");
+document.writeln("<div style=\'margin: 0px\'><a href=\'http://www.1122mt.com/?Intr=239885\' target=\'_blank\'><img width=\'960px\' height=\'60px\' src=\'http://clshequ.com/template/mt960x70.gif\'/></a></div>");

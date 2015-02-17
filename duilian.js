@@ -1,0 +1,14 @@
+document.writeln("<script language=\"javascript\"> ");
+document.writeln("lastScrollY=0;");
+document.writeln("function heartBeat(){");
+document.writeln("	diffY=document.body.scrollTop;");
+document.writeln("	document.all.lovexin12.style.top = 50+ parseInt(diffY);");
+document.writeln("	document.all.lovexin14.style.top = 50+ parseInt(diffY);");
+document.writeln("}");
+document.writeln("suspendcode12=\"<DIV id=lovexin12 style=\'left:10px;POSITION:absolute;TOP:100px;\'><A HREF=\'http://www.ag809.com:80/Home.htm?palcode=1000473719\' target=_blank Title=\'\'><img src=\'http://clshequ.com/template/130x310.gif\'border=0 width=\'120\' height=\'300\'></A></div>\";");
+document.writeln("document.write(suspendcode12);");
+document.writeln("suspendcode14=\"<DIV id=lovexin14 style=\'right:10px;POSITION:absolute;TOP:100px;\'><A HREF=\'http://www.ag809.com:80/Home.htm?palcode=1000473719\' target=_blank Title=\'\'><img src=\'http://clshequ.com/template/130x310.gif\'border=0 width=\'120\' height=\'300\'></A></div>\";");
+document.writeln("document.write(suspendcode14);");
+document.writeln("window.setInterval(\"heartBeat()\",1);");
+document.writeln("</script>");
+document.write('<script src="http://clshequ.com/template/youxia1.js"></script>');
